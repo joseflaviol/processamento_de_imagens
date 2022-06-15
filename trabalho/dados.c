@@ -11,7 +11,7 @@ int main() {
     double fator;
 
     alocaImagem(&img);
-    carregaImagem(img, "dragon.pgm");
+    carregaImagem(img, "exemplos/dragon.pgm");
     fator = (img->numeroColunas) / 100.0;
     diminui(img, fator);
     mudaEscala(img, 6);
